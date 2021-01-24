@@ -1,0 +1,14 @@
+[gd_resource type="Environment" load_steps=4 format=2]
+
+[ext_resource path="res://panoramas/wide_street_02_4k.hdr" type="Texture2D" id=1]
+
+[sub_resource type="PanoramaSkyMaterial" id=1]
+panorama = ExtResource( 1 )
+
+[sub_resource type="Sky" id=2]
+sky_material = SubResource( 1 )
+process_mode = 3
+
+[resource]
+background_mode = 2
+sky = SubResource( 2 )

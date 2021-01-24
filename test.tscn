@@ -1,0 +1,128 @@
+[gd_scene load_steps=27 format=2]
+
+[ext_resource path="res://textures/Black_Tiles_07_2K_Base_Color.png" type="Texture2D" id=1]
+[ext_resource path="res://textures/Black_Tiles_07_2K_Normal.png" type="Texture2D" id=2]
+[ext_resource path="res://textures/Brushed_Metal_Tiles_03_2K_Base_Color.png" type="Texture2D" id=3]
+[ext_resource path="res://textures/Brushed_Metal_Tiles_03_2K_Normal.png" type="Texture2D" id=4]
+[ext_resource path="res://textures/Brushed_Metal_Tiles_03_2K_Roughness.png" type="Texture2D" id=5]
+[ext_resource path="res://textures/Brushed_Metal_Tiles_03_2K_AO.png" type="Texture2D" id=6]
+[ext_resource path="res://textures/Black_Tiles_07_2K_Roughness.png" type="Texture2D" id=7]
+[ext_resource path="res://textures/Black_Tiles_07_2K_AO.png" type="Texture2D" id=8]
+[ext_resource path="res://textures/Dark_Ocean_Tiles_06_2K_Base_Color.png" type="Texture2D" id=9]
+[ext_resource path="res://textures/Dark_Ocean_Tiles_06_2K_Roughness.png" type="Texture2D" id=10]
+[ext_resource path="res://textures/Dark_Ocean_Tiles_06_2K_Normal.png" type="Texture2D" id=11]
+[ext_resource path="res://textures/Dark_Ocean_Tiles_06_2K_AO.png" type="Texture2D" id=12]
+[ext_resource path="res://textures/Metal_tiles_03_2K_Base_Color.png" type="Texture2D" id=13]
+[ext_resource path="res://textures/Metal_tiles_03_2K_Normal.png" type="Texture2D" id=14]
+[ext_resource path="res://textures/Metal_tiles_03_2K_Roughness.png" type="Texture2D" id=15]
+[ext_resource path="res://textures/Metal_tiles_03_2K_AO.png" type="Texture2D" id=16]
+[ext_resource path="res://textures/Metal_tiles_03_2K_Metallic.png" type="Texture2D" id=17]
+[ext_resource path="res://Camera3D.gd" type="Script" id=18]
+
+[sub_resource type="StandardMaterial3D" id=1]
+albedo_texture = ExtResource( 1 )
+roughness_texture = ExtResource( 7 )
+normal_enabled = true
+normal_scale = 1.0
+normal_texture = ExtResource( 2 )
+ao_enabled = true
+ao_light_affect = 0.0
+ao_texture = ExtResource( 8 )
+ao_on_uv2 = false
+ao_texture_channel = 0
+uv1_scale = Vector3( 1, 8, 1 )
+texture_filter = 5
+
+[sub_resource type="PlaneMesh" id=2]
+material = SubResource( 1 )
+size = Vector2( 4, 32 )
+
+[sub_resource type="StandardMaterial3D" id=3]
+albedo_texture = ExtResource( 3 )
+roughness_texture = ExtResource( 5 )
+normal_enabled = true
+normal_scale = 1.0
+normal_texture = ExtResource( 4 )
+ao_enabled = true
+ao_light_affect = 0.0
+ao_texture = ExtResource( 6 )
+ao_on_uv2 = false
+ao_texture_channel = 0
+uv1_scale = Vector3( 1, 8, 1 )
+texture_filter = 5
+
+[sub_resource type="PlaneMesh" id=4]
+material = SubResource( 3 )
+size = Vector2( 4, 32 )
+
+[sub_resource type="StandardMaterial3D" id=5]
+albedo_texture = ExtResource( 9 )
+roughness_texture = ExtResource( 10 )
+normal_enabled = true
+normal_scale = 1.0
+normal_texture = ExtResource( 11 )
+ao_enabled = true
+ao_light_affect = 0.0
+ao_texture = ExtResource( 12 )
+ao_on_uv2 = false
+ao_texture_channel = 0
+uv1_scale = Vector3( 1, 8, 1 )
+texture_filter = 5
+
+[sub_resource type="PlaneMesh" id=6]
+material = SubResource( 5 )
+size = Vector2( 4, 32 )
+
+[sub_resource type="StandardMaterial3D" id=7]
+albedo_texture = ExtResource( 13 )
+metallic = 1.0
+metallic_texture = ExtResource( 17 )
+roughness_texture = ExtResource( 15 )
+normal_enabled = true
+normal_scale = 1.0
+normal_texture = ExtResource( 14 )
+ao_enabled = true
+ao_light_affect = 0.0
+ao_texture = ExtResource( 16 )
+ao_on_uv2 = false
+ao_texture_channel = 0
+uv1_scale = Vector3( 1, 8, 1 )
+texture_filter = 5
+
+[sub_resource type="PlaneMesh" id=8]
+material = SubResource( 7 )
+size = Vector2( 4, 32 )
+
+[node name="Node3D" type="Node3D"]
+script = null
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource( 2 )
+material/0 = null
+script = null
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0 )
+mesh = SubResource( 4 )
+material/0 = null
+script = null
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0 )
+mesh = SubResource( 6 )
+material/0 = null
+script = null
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0 )
+mesh = SubResource( 8 )
+material/0 = null
+script = null
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform( -0.842873, -0.201997, 0.498761, 0, 0.926871, 0.37538, -0.538113, 0.316398, -0.781234, 11.9553, 1.69826, 0.375298 )
+script = ExtResource( 18 )
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform( 0.831446, 0.252222, -0.495058, 0, 0.891023, 0.453958, 0.555606, -0.377442, 0.740837, 5.77094, 2.5692, 5.31481 )
+script = null
