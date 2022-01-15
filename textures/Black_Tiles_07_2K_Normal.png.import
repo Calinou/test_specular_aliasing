@@ -3,21 +3,19 @@
 importer="texture"
 type="StreamTexture2D"
 uid="uid://c05inj1i4eiyf"
-path.s3tc="res://.godot/imported/Black_Tiles_07_2K_Normal.png-76367967722434dded7cdb9e836244aa.s3tc.stex"
-path.etc2="res://.godot/imported/Black_Tiles_07_2K_Normal.png-76367967722434dded7cdb9e836244aa.etc2.stex"
+path="res://.godot/imported/Black_Tiles_07_2K_Normal.png-76367967722434dded7cdb9e836244aa.stex"
 metadata={
-"imported_formats": ["s3tc", "etc2"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://textures/Black_Tiles_07_2K_Normal.png"
-dest_files=["res://.godot/imported/Black_Tiles_07_2K_Normal.png-76367967722434dded7cdb9e836244aa.s3tc.stex", "res://.godot/imported/Black_Tiles_07_2K_Normal.png-76367967722434dded7cdb9e836244aa.etc2.stex"]
+dest_files=["res://.godot/imported/Black_Tiles_07_2K_Normal.png-76367967722434dded7cdb9e836244aa.stex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_compression=1
 compress/bptc_ldr=0

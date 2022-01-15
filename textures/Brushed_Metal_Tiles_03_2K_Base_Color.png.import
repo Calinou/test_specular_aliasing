@@ -3,21 +3,19 @@
 importer="texture"
 type="StreamTexture2D"
 uid="uid://hn1krquvacsj"
-path.s3tc="res://.godot/imported/Brushed_Metal_Tiles_03_2K_Base_Color.png-8f040e62726e881d3911f96477a8c043.s3tc.stex"
-path.etc2="res://.godot/imported/Brushed_Metal_Tiles_03_2K_Base_Color.png-8f040e62726e881d3911f96477a8c043.etc2.stex"
+path="res://.godot/imported/Brushed_Metal_Tiles_03_2K_Base_Color.png-8f040e62726e881d3911f96477a8c043.stex"
 metadata={
-"imported_formats": ["s3tc", "etc2"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://textures/Brushed_Metal_Tiles_03_2K_Base_Color.png"
-dest_files=["res://.godot/imported/Brushed_Metal_Tiles_03_2K_Base_Color.png-8f040e62726e881d3911f96477a8c043.s3tc.stex", "res://.godot/imported/Brushed_Metal_Tiles_03_2K_Base_Color.png-8f040e62726e881d3911f96477a8c043.etc2.stex"]
+dest_files=["res://.godot/imported/Brushed_Metal_Tiles_03_2K_Base_Color.png-8f040e62726e881d3911f96477a8c043.stex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_compression=1
 compress/bptc_ldr=0

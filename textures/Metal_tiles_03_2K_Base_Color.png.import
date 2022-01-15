@@ -3,21 +3,19 @@
 importer="texture"
 type="StreamTexture2D"
 uid="uid://y4r6x7227nki"
-path.s3tc="res://.godot/imported/Metal_tiles_03_2K_Base_Color.png-2379bb24805514f51f2c05077633d763.s3tc.stex"
-path.etc2="res://.godot/imported/Metal_tiles_03_2K_Base_Color.png-2379bb24805514f51f2c05077633d763.etc2.stex"
+path="res://.godot/imported/Metal_tiles_03_2K_Base_Color.png-2379bb24805514f51f2c05077633d763.stex"
 metadata={
-"imported_formats": ["s3tc", "etc2"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://textures/Metal_tiles_03_2K_Base_Color.png"
-dest_files=["res://.godot/imported/Metal_tiles_03_2K_Base_Color.png-2379bb24805514f51f2c05077633d763.s3tc.stex", "res://.godot/imported/Metal_tiles_03_2K_Base_Color.png-2379bb24805514f51f2c05077633d763.etc2.stex"]
+dest_files=["res://.godot/imported/Metal_tiles_03_2K_Base_Color.png-2379bb24805514f51f2c05077633d763.stex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_compression=1
 compress/bptc_ldr=0

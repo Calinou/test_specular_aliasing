@@ -31,7 +31,6 @@ process_mode = 3
 background_mode = 2
 sky = SubResource( "Sky_q5uws" )
 tonemap_mode = 2
-glow_enabled = true
 
 [sub_resource type="StandardMaterial3D" id="1"]
 albedo_texture = ExtResource( "1" )

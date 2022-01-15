@@ -3,21 +3,19 @@
 importer="texture"
 type="StreamTexture2D"
 uid="uid://do14a66jmh5fg"
-path.s3tc="res://.godot/imported/Metal_tiles_03_2K_Roughness.png-abb3119305e41e4b723ef0ec0bb0b174.s3tc.stex"
-path.etc2="res://.godot/imported/Metal_tiles_03_2K_Roughness.png-abb3119305e41e4b723ef0ec0bb0b174.etc2.stex"
+path="res://.godot/imported/Metal_tiles_03_2K_Roughness.png-abb3119305e41e4b723ef0ec0bb0b174.stex"
 metadata={
-"imported_formats": ["s3tc", "etc2"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://textures/Metal_tiles_03_2K_Roughness.png"
-dest_files=["res://.godot/imported/Metal_tiles_03_2K_Roughness.png-abb3119305e41e4b723ef0ec0bb0b174.s3tc.stex", "res://.godot/imported/Metal_tiles_03_2K_Roughness.png-abb3119305e41e4b723ef0ec0bb0b174.etc2.stex"]
+dest_files=["res://.godot/imported/Metal_tiles_03_2K_Roughness.png-abb3119305e41e4b723ef0ec0bb0b174.stex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_compression=1
 compress/bptc_ldr=0

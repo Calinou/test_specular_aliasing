@@ -3,21 +3,19 @@
 importer="texture"
 type="StreamTexture2D"
 uid="uid://cygmiwwd0sn8k"
-path.s3tc="res://.godot/imported/Dark_Ocean_Tiles_06_2K_Base_Color.png-3faff72261cdc384951ddff0d3e8aef7.s3tc.stex"
-path.etc2="res://.godot/imported/Dark_Ocean_Tiles_06_2K_Base_Color.png-3faff72261cdc384951ddff0d3e8aef7.etc2.stex"
+path="res://.godot/imported/Dark_Ocean_Tiles_06_2K_Base_Color.png-3faff72261cdc384951ddff0d3e8aef7.stex"
 metadata={
-"imported_formats": ["s3tc", "etc2"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://textures/Dark_Ocean_Tiles_06_2K_Base_Color.png"
-dest_files=["res://.godot/imported/Dark_Ocean_Tiles_06_2K_Base_Color.png-3faff72261cdc384951ddff0d3e8aef7.s3tc.stex", "res://.godot/imported/Dark_Ocean_Tiles_06_2K_Base_Color.png-3faff72261cdc384951ddff0d3e8aef7.etc2.stex"]
+dest_files=["res://.godot/imported/Dark_Ocean_Tiles_06_2K_Base_Color.png-3faff72261cdc384951ddff0d3e8aef7.stex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_compression=1
 compress/bptc_ldr=0

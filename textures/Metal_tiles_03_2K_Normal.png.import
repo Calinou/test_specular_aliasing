@@ -3,21 +3,19 @@
 importer="texture"
 type="StreamTexture2D"
 uid="uid://h7k1um4l2yst"
-path.s3tc="res://.godot/imported/Metal_tiles_03_2K_Normal.png-4df18c2ed0ab2b669f8c99c4f6b6c0b4.s3tc.stex"
-path.etc2="res://.godot/imported/Metal_tiles_03_2K_Normal.png-4df18c2ed0ab2b669f8c99c4f6b6c0b4.etc2.stex"
+path="res://.godot/imported/Metal_tiles_03_2K_Normal.png-4df18c2ed0ab2b669f8c99c4f6b6c0b4.stex"
 metadata={
-"imported_formats": ["s3tc", "etc2"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://textures/Metal_tiles_03_2K_Normal.png"
-dest_files=["res://.godot/imported/Metal_tiles_03_2K_Normal.png-4df18c2ed0ab2b669f8c99c4f6b6c0b4.s3tc.stex", "res://.godot/imported/Metal_tiles_03_2K_Normal.png-4df18c2ed0ab2b669f8c99c4f6b6c0b4.etc2.stex"]
+dest_files=["res://.godot/imported/Metal_tiles_03_2K_Normal.png-4df18c2ed0ab2b669f8c99c4f6b6c0b4.stex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_compression=1
 compress/bptc_ldr=0
