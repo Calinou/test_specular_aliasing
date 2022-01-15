@@ -15,7 +15,7 @@ func _input(event):
 			viewport.size *= MEGA_RESOLUTION_FACTOR
 
 		RenderingServer.viewport_set_clear_mode(viewport.get_viewport_rid(), SubViewport.CLEAR_MODE_ONCE)
-		var image := viewport.get_texture().get_data()
+		var image = viewport.get_texture().get_image()
 		RenderingServer.viewport_set_clear_mode(viewport.get_viewport_rid(), SubViewport.CLEAR_MODE_ALWAYS)
 
 		if mega_resolution:
@@ -23,11 +23,11 @@ func _input(event):
 			viewport.size /= MEGA_RESOLUTION_FACTOR
 
 		# Screenshot file name with ISO 8601-like date.
-		var datetime := OS.get_datetime()
+		var datetime = Time.get_datetime_dict_from_system()
 		for key in datetime:
 			datetime[key] = str(datetime[key]).pad_zeros(2)
 
-		var error := image.save_png(
+		var error = image.save_png(
 				"user://{year}-{month}-{day}_{hour}.{minute}.{second}.png" \
 						.format(datetime)
 		)
